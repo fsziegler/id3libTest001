@@ -2,7 +2,7 @@ id3libTest001
 =============
 Install id3v2 first (`sudo apt-get install id3v2`).<br>
 Download the latest id3lib from [here](http://id3lib.sourceforge.net/) and extract into its own directory in your development path (e.g., ~/dev/id3lib-3.8.3).<br>
- * _run tar xvfz id3lib-3\.8\.3\.tar\.gz to extract the library into \./id3lib-3\.8\.3_<br>
+ * _run `tar xvfz id3lib-3\.8\.3\.tar\.gz` to extract the library into \./id3lib-3\.8\.3_<br>
 
 Note that the latest id3lib does not compile correctly. See [this link](http://wiki.awkwardtv.org/wiki/Install_ID3V2) for a description of what to change to correct this problem. Basically:<br>
  * Change "iomanip.h" to "iomanip" in the configure file before running `./configure`.<br>
