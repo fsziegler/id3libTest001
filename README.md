@@ -1,7 +1,8 @@
 id3libTest001
 =============
 Install id3v2 first (`sudo apt-get install id3v2`).<br>
- * _The script [install_id3lib.sh](https://github.com/fsziegler/id3libTest001/blob/master/install_id3lib.sh) will perform these opertions._<br>
+ * _The script [install_id3lib.sh](https://github.com/fsziegler/id3libTest001/blob/master/install_id3lib.sh) will perform these operations._<br>
+
 Download the latest id3lib from [here](http://id3lib.sourceforge.net/) and extract into its own directory in your development path (e.g., ~/dev/id3lib-3.8.3).<br>
  * _run `tar xvfz id3lib-3\.8\.3\.tar\.gz` to extract the library into \./id3lib-3\.8\.3_<br>
 
