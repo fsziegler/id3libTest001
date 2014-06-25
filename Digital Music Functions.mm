@@ -1,4 +1,4 @@
-<map version="0.9.0">
+<map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1403721937217" ID="ID_1909699675" MODIFIED="1403725439306" TEXT="Digital Music Functions">
 <font NAME="SansSerif" SIZE="20"/>
@@ -37,6 +37,7 @@
 </node>
 <node COLOR="#111111" CREATED="1403724874186" ID="ID_305434909" MODIFIED="1403725439289" TEXT="Scan directories concurrently">
 <node COLOR="#111111" CREATED="1403724886321" ID="ID_248407421" MODIFIED="1403725439289" STYLE="bubble" TEXT="Technology: Boost threads"/>
+<node COLOR="#111111" CREATED="1403732708082" ID="ID_24723383" MODIFIED="1403732726011" STYLE="bubble" TEXT="Technology: Boost interprocess"/>
 </node>
 <node COLOR="#111111" CREATED="1403724793730" ID="ID_415624116" MODIFIED="1403725439289" STYLE="bubble" TEXT="Technology: Boost Filesystem"/>
 </node>
