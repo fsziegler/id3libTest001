@@ -1,6 +1,7 @@
 id3libTest001
 =============
 Install id3v2 first (`sudo apt-get install id3v2`).<br>
+ * _The script [install_id3lib.sh](https://github.com/fsziegler/id3libTest001/blob/master/install_id3lib.sh) will perform these opertions._<br>
 Download the latest id3lib from [here](http://id3lib.sourceforge.net/) and extract into its own directory in your development path (e.g., ~/dev/id3lib-3.8.3).<br>
  * _run `tar xvfz id3lib-3\.8\.3\.tar\.gz` to extract the library into \./id3lib-3\.8\.3_<br>
 
@@ -12,4 +13,4 @@ Note that the latest id3lib does not compile correctly. See [this link](http://w
  * uncomment(!) "#include \<string.h\>" in the include/id3/writers.h file before running `make`, and<br>
   * _run `sed -i 's/\/\/#include <string\.h>/#include <string\.h>/g' ./include/id3/writers.h` to do this automatically_<br>
  * change "int main( unsigned int ..." to "int main( int ..." in demo\_info.cpp, demo\_convert.cpp, demo\_tag.cpp, and demo\_copy.cpp before running `make install`.<br>
-  * _run `sed -i 's/int main( unsigned int argc/int main( int argc/g' ./examples/demo\_info.cpp && sed -i 's/int main( unsigned int argc/int main( int argc/g' ./examples/demo\_convert.cpp && sed -i 's/int main( unsigned int argc/int main( int argc/g' ./examples/demo\_tag.cpp && sed -i 's/int main( unsigned int argc/int main( int argc/g' ./examples/demo_copy.cpp` to do this automatically_<br>
+  * _run `sed -i 's/int main( unsigned int argc/int main( int argc/g' ./examples/demo\_info.cpp && sed -i 's/int main( unsigned int argc/int main( int argc/g' ./examples/demo\_convert.cpp && sed -i 's/int main( unsigned int argc/int main( int argc/g' ./examples/demo\_tag.cpp && sed -i 's/int main( unsigned int argc/int main( int argc/g' ./examples/demo\_copy.cpp` to do this automatically_<br>
