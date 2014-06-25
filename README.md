@@ -5,4 +5,4 @@ Note that the last id3lib does not compile correctly. See [this link](http://wik
  * Change "iomanip.h" to "iomanip" in the configure file before running `./configure`<br>
  * Add "#include <string.h>" right after "#include <string>" in the include/id3/id3lib_strings.h file,<br>
  * uncomment(!) "#include <string.h>" in the include/id3/writers.h file before running `make`, and<br>
- * change "int main( unsigned int ..." to "int main( int ..." in demo\_info.cpp, demo\_convert.cpp, demo\_tag.cpp, and demo\_copy.cpp before running make.<br>
+ * change "int main( unsigned int ..." to "int main( int ..." in demo\_info.cpp, demo\_convert.cpp, demo\_tag.cpp, and demo\_copy.cpp before running `make install`.<br>
