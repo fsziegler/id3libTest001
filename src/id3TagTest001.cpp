@@ -23,7 +23,6 @@ SOFTWARE.
 // Name        : id3TagTest001.cpp
 // Author      : Fred Ziegler
 // Version     :
-// Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
